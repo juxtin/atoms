@@ -41,6 +41,6 @@ func main() {
 	}
 	// wait for the goroutines to finish
 	time.Sleep(10 * time.Millisecond)
-	fmt.Println("Value of a is:", a.Deref())
+	fmt.Println("Value of a is:", a.Deref()) // prints "Value of a is: 68"
 }
 ```
