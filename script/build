@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+GO=go1.18beta1
+
+$GO build -o smoketest smoke/main.go 
